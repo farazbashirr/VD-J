@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A playful Valentine question for Jaweria." />
+    <title>Will You Be My Valentine?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="valentine">
+    <div id="preloader" aria-hidden="true">
+        <div class="loader-heart"></div>
+        <p>Warming up a magical moment...</p>
+    </div>
+
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <main class="page-shell">
+        <section class="valentine-card glass-card">
+            <p class="eyebrow">Dil se nikalti hui darkhwast</p>
+            <h1>Jaweria, meri zindagi... Will you be my Valentine?</h1>
+            <p>Tumhare bina har lamha adhoora lagta hai, is liye aaj dil ne sabse pyaari guzarish tumse karni chahi.</p>
+            <div class="choice-buttons" aria-live="polite">
+                <div class="choice-hearts" aria-hidden="true"></div>
+                <a id="yesButton" class="btn btn-primary btn-yes" href="gifts.html">Yes</a>
+                <button id="noButton" class="btn btn-ghost" type="button" aria-label="No, but nice try">No</button>
+            </div>
+        </section>
+    </main>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-zlB7xpdA0zzakDx4zY/boYYGr2susx1bwyodH4qzM7gc7E4PkdrowGmyi0HLt6+KnH6YtJkE5zDcZnW0HQM3ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
+    <script defer src="animations.js"></script>
+</body>
+</html>

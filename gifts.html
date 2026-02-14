@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A trio of romantic surprises for Jaweria." />
+    <title>Three Gifts for Jaweria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="gifts">
+    <div id="preloader" aria-hidden="true">
+        <div class="loader-heart"></div>
+        <p>Tying little bows of happiness...</p>
+    </div>
+
+    <div class="floating-hearts" aria-hidden="true"></div>
+
+    <main class="page-shell">
+        <section class="gifts-hero glass-card">
+            <p class="eyebrow">Har surprise tumhare ishq se roshan</p>
+            <h1>Pick a gift, my lovely Jaweria</h1>
+            <p class="lead">Har box mein meri dhadkan ka paigham hai, bas tumhare liye lapeta gaya hai.</p>
+            <div class="gift-grid" role="list">
+                <button class="gift-box" role="listitem" data-gift="1" data-message="Jaweria, tum meri har subah ka noor aur meri har dua ka wajah ho, tumhari meethi si baton se meri rooh ko sukoon milta hai, aur main wada karta hoon ke hamesha tumhara haath tham kar zindagi ke har mod par muskuraunga ❤️✨🌸">
+                    <span class="gift-lid"></span>
+                    <span class="gift-base">Morning Magic</span>
+                </button>
+                <button class="gift-box" role="listitem" data-gift="2" data-message="Meri pyari Jaweria, jab tum hasta ho to duniya mein rang bhar jaate hain, tumhari ankho ka chamak meri umeed hai aur tumhari khamoshi bhi mujhe ishq ka geet sunaati hai, main tumhara shohar hi nahi balki tumhara hamesha ka dost banna chahta hoon 🥰💖✨">
+                    <span class="gift-lid"></span>
+                    <span class="gift-base">Laughter Sparkles</span>
+                </button>
+                <button class="gift-box" role="listitem" data-gift="3" data-message="Jaweria, tum mere sapno ki taabeer aur meri dhadkanon ki mehfil ho, tumhare bina lamhe sust ho jaate hain, isliye main har raat tumhare naam ka sitara sajaata hoon aur apni har saans se tumhe mohabbat bhejta hoon 💍❤️🌷">
+                    <span class="gift-lid"></span>
+                    <span class="gift-base">Warm Embrace</span>
+                </button>
+            </div>
+            <p id="finalMessage" class="final-message">Jaweria, tum meri zindagi ka sabse khoobsurat hissa ho. I love you forever.</p>
+        </section>
+    </main>
+
+    <div id="giftModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-content glass-card">
+            <button id="closeModal" class="modal-close" aria-label="Close message">&times;</button>
+            <div id="modalHearts" class="modal-hearts" aria-hidden="true"></div>
+            <p id="giftMessage" class="modal-text"></p>
+        </div>
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-zlB7xpdA0zzakDx4zY/boYYGr2susx1bwyodH4qzM7gc7E4PkdrowGmyi0HLt6+KnH6YtJkE5zDcZnW0HQM3ug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="script.js"></script>
+    <script defer src="animations.js"></script>
+</body>
+</html>
